@@ -1,0 +1,19 @@
+prefix: 'SW-血量上限'
+
+heart:
+  buy_success: '购买成功,当前血量上限为'
+  buy_fail: '购买失败,金钱不足,需要{price}SW币'
+  buy_max: '购买失败,血量上限已达最大值'
+
+common:
+  not_per: '你没有权限执行该命令'
+  reloaded: 'SimpleHeart插件重载成功'
+  only_support_player: '指令只能由玩家使用'
+  player_not_found: '没有找到在线玩家 %s'
+  admin_set_error: '设置失败,请检查参数,发送 /heart set <玩家> <新血量上限>'
+  admin_set_max: '设置失败,新血量上限值大于最大值,最大值为{max}'
+  admin_set_success: '设置成功,玩家{player},目前的血量上限为{health}'
+
+help:
+  - '[SimpleWorld血量上限插件帮助]'
+  - '/heart buy 使用{price}SW币购买一颗心(血量上限)'

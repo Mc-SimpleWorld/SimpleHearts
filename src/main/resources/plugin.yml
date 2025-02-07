@@ -1,0 +1,23 @@
+name: simple-hearts
+version: '0.0.1'
+main: org.nott.SimpleHearts
+api-version: '1.20'
+prefix: SimpleHearts
+load: STARTUP
+authors: [ Nott ]
+description: simple-heart
+website: https://simpleworld-server.github.io/
+loadbefore:
+  - Vault
+
+commands:
+  simpleheart:
+    description: '血量模块'
+    usage: '未知命令'
+    aliases: 'sh'
+
+permissions:
+  simpleheart.player:
+    default: true
+  simpleheart.admin:
+    default: op
